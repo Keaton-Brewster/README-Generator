@@ -5,7 +5,7 @@
 A simple command line application for generating clean professional README.md files based off user given inputs.
 
   ### <a id='license'></a> License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
