@@ -29,7 +29,7 @@ function generateLicense(data) {
   }
   data.license === "none"
     ? (license = "")
-    : (license = `### <a id='license'></a>${badge}`);
+    : (license = `### <a id='license'></a>${badge}\nThis application is covered under the ${data.license} license.`);
   return license;
 }
 
@@ -37,7 +37,8 @@ function generateDescription(data) {
   if ((data.description.trim = "")) {
     return "";
   } else {
-    return data.description;
+    return `## Description\n
+    ${data.description}`;
   }
 }
 
@@ -47,24 +48,23 @@ function generateMarkdown(data) {
   let description = generateDescription(data);
 
   return `# **${title}**\n
-  ## Description\n
   ${description}\n
   ${license}\n
   ---\n
   Contents\n---\n [Head](#head) - [Install](#install) - [Use](#usage) - [Testing](#testing) - [Questions](#questions)\n
   ---\n
   ## <a id="install"></a> Installation\n  
-  Recommended: Install via ${data.installMethod}\n  
-  > ${data.install}\n   
+  Recommended: Install via ${data.installMethod}\n
+    ${data.install}\n   
 
   ## <a id="usage"></a> Usage\n
-  ${data.usage}\n
+    ${data.usage}\n
 
   ## <a id="testing"></a> Testing\n
-  ${data.testI}\n
+    ${data.testI}\n
   ---\n
   ## Contribution guidelines\n
-  ${data.contribution}\n
+    ${data.contribution}\n
   ---\n
   ## <a id='questions'></a> Questions?\nFor questions about the application, or about possible contributions, reach out using one of the methods below:\n> [Github](https://github.com/${data.username})  \n[Email](mailto:${data.email})\n`;
 }
