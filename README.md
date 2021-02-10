@@ -19,7 +19,7 @@ A simple command line application for generating clean professional README.md fi
 
   Recommended: Install via GitHub
 
-```md
+```markdown
 For installation, just fork a copy from github, and close the repository into a desired location on your  computer
 ```
 
