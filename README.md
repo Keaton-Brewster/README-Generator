@@ -56,3 +56,8 @@ And then just follow the prompt to generate a README in the same directory as wh
 Reach out:
 > [Github](https://github.com/Keaton-Brewster)  
 [Email](mailto:keatonbrewsterdev@gmail.com)
+
+## Technologies:
+javascript  
+node.js 
+[inquirer](https://www.npmjs.com/package/inquirer)
