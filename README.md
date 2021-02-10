@@ -19,7 +19,7 @@ A simple command line application for generating clean professional README.md fi
 
   Recommended: Install via GitHub
 
-  For installation, just fork a copy from github, and close the repository into a desired location on your  computer
+  For installation, either fork a copy to your own github profile, and then clone that copy to your local computer, or feel free to clone directly from this repository into a desired location on your computer
 
 ---
 
