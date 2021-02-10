@@ -70,10 +70,15 @@ function inquire() {
       },
       {
         type: "list",
-        message: "What type of license should this project have?",
+        message: "Under which of the following will your application be licensed?",
         choices: ["Apache 2.0", "GPL", "Eclipse", "MIT", "none"],
         name: "license",
       },
+      {
+        type: "input",
+        message: "What technologies are utilized in your application?",
+        name: "technologies"
+      }
     ])
     .then((data) => {
       writeToFile("README.md", data);
