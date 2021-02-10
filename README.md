@@ -57,7 +57,7 @@ Reach out:
 > [Github](https://github.com/Keaton-Brewster)  
 [Email](mailto:keatonbrewsterdev@gmail.com)
 
-## Technologies:
+### Technologies utilized:
 javascript  
 node.js     
 [inquirer](https://www.npmjs.com/package/inquirer)
