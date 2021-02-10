@@ -30,7 +30,7 @@ For installation, just fork a copy from github, and close the repository into a 
 This version of the generator is dependant on node.js. If you do not have node installed, download the LTS version [here](https://nodejs.org/en/download).   
 (for a quick start quide, check [here](https://nodejs.org/en/docs/guides/getting-started-guide/).)
 
-Once you have node ready, navigate to the working directory of index.js, and from the command line: 
+With node installed, navigate to the working directory of index.js, and from the command line: 
   ```bash 
     node index.js 
   ``` 

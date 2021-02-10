@@ -71,16 +71,12 @@ function inquire() {
       {
         type: "list",
         message: "What type of license should this project have?",
-        choices: ["Apache", "GPL", "Eclipse", "MIT", "none"],
+        choices: ["Apache 2.0", "GPL", "Eclipse", "MIT", "none"],
         name: "license",
       },
     ])
     .then((data) => {
-      if (data.projectTitle.includes(" ")) {
-        return console.log("No spaces allows in project title");
-      }
-      let fileName = `README.md`;
-      writeToFile(fileName, data);
+      writeToFile("README.md", data);
     });
 }
 // Function call to initialize app
