@@ -59,5 +59,5 @@ Reach out:
 
 ## Technologies:
 javascript  
-node.js 
+node.js     
 [inquirer](https://www.npmjs.com/package/inquirer)
