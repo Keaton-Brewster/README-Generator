@@ -45,4 +45,4 @@ Follow the prompt to generate a README in the same directory as where the progra
   ## <a id='questions'></a> Questions?
 Reach out:
 > [Github](https://github.com/Keaton-Brewster)  
-[Email](mailto:keaton.brewster@gmail.com)
+[Email](mailto:keatonbrewsterdev@gmail.com)
