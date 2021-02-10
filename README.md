@@ -21,12 +21,26 @@ A simple command line application for generating clean professional README.md fi
 
   For installation, either fork a copy to your own github profile, or feel free to clone directly from this repository into a desired location on your computer
 
+  This version of the generator is dependant on node.js, and the inquirer package. If you do not have node installed, download the LTS version [here](https://nodejs.org/en/download).   
+  (for a quick start quide, check [here](https://nodejs.org/en/docs/guides/getting-started-guide/).)
+
+  Then to ensure inquirer is installed, run
+  ```bash
+    npm i
+  ```
+  from the command line within the working directory of the cloned repository
+
 ---
 
   ## <a id="usage"></a> Usage
 
-This version of the generator is dependant on node.js. If you do not have node installed, download the LTS version [here](https://nodejs.org/en/download).   
+This version of the generator is dependant on node.js, and the inquirer package. If you do not have node installed, download the LTS version [here](https://nodejs.org/en/download).   
 (for a quick start quide, check [here](https://nodejs.org/en/docs/guides/getting-started-guide/).)
+Then to ensure inquirer is installed, run
+  ```bash
+    npm i
+  ```
+  from the command line within the working directory of the cloned repository
 
 With node installed, navigate to the working directory of index.js, and from the command line: 
   ```bash 
