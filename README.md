@@ -1,4 +1,9 @@
-# **README-generator**
+Contents
+---
+ [Head](#head) - [Install](#install) - [Use](#usage) - [Testing](#testing) - [Questions](#questions)
+
+  ---
+  # **README-generator**
 
   ### Description
 
@@ -8,12 +13,6 @@ A simple command line application for generating clean professional README.md fi
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ---
-
-  Contents
----
- [Head](#head) - [Install](#install) - [Use](#usage) - [Testing](#testing) - [Questions](#questions)
-
-  ---
 
   # <a id="install"></a> Installation
 
