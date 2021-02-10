@@ -48,7 +48,7 @@ And then just follow the prompt to generate a README in the same directory as wh
 
   ## Contribution guidelines
 
-  Contributions will be reviewed solely by the owner of the main repository
+  For the foreseeable future this project will not be accepting any contributions, but if you would still like to get in touch with me about something, my contact information is below.
 
   ---
 
