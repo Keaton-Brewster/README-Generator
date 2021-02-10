@@ -1,7 +1,7 @@
 {
   "name": "assets",
   "version": "1.0.0",
-  "description": "dependancy package for README generator",
+  "description": "dependency package for README generator",
   "main": "index.js",
   "dependencies": {
     "inquirer": "^7.3.3"
