@@ -15,7 +15,7 @@ A simple command line application for generating clean professional README.md fi
 
   ---
 
-  ## <a id="install"></a> Installation
+  # <a id="install"></a> Installation
 
   Recommended: Install via GitHub clone
 
@@ -24,29 +24,25 @@ A simple command line application for generating clean professional README.md fi
   This version of the generator is dependant on node.js, and the inquirer package. If you do not have node installed, download the LTS version [here](https://nodejs.org/en/download).   
   (for a quick start quide, check [here](https://nodejs.org/en/docs/guides/getting-started-guide/).)
 
-  Then to ensure inquirer is installed, run
+  Then to ensure inquirer is installed, navigate to the working directory where you cloned the repository, and first create a local package.json:
+  ```bash
+    npm init
+  ```
+  and then to install the dependencies:
   ```bash
     npm i
   ```
-  from the command line within the working directory of the cloned repository
 
 ---
 
   ## <a id="usage"></a> Usage
+ 
+To USE the generator, while still in the working directory of the cloned repository, run in the command line: 
 
-This version of the generator is dependant on node.js, and the inquirer package. If you do not have node installed, download the LTS version [here](https://nodejs.org/en/download).   
-(for a quick start quide, check [here](https://nodejs.org/en/docs/guides/getting-started-guide/).)
-Then to ensure inquirer is installed, run
-  ```bash
-    npm i
-  ```
-  from the command line within the working directory of the cloned repository
-
-With node installed, navigate to the working directory of index.js, and from the command line: 
   ```bash 
     node index.js 
   ``` 
-Follow the prompt to generate a README in the same directory as where the program is installed.
+And then just follow the prompt to generate a README in the same directory as where the program is installed.
 
 ---
 
