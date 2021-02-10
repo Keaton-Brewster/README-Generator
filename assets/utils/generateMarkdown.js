@@ -105,8 +105,8 @@ function generateMarkdown(data) {
     usage = generateUsage(data),
     testing = generateTesting(data),
     contribution = generateContributions(data),
-    questions = generateQuestions(data);
-  technologies = generateTechnologies(data);
+    questions = generateQuestions(data),
+    technologies = generateTechnologies(data);
 
   return `# **${title}**\n
   ${description}
