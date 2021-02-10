@@ -28,7 +28,7 @@ A simple command line application for generating clean professional README.md fi
   ```bash
     npm init
   ```
-  and then to install the dependencies:
+  and then install:
   ```bash
     npm i
   ```
