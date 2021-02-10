@@ -27,7 +27,7 @@ function generateLicense(data) {
         "[![License](https://img.shields.io/badge/License-EPL%201.0-blue.svg)](https://opensource.org/licenses/EPL-1.0)";
       break;
   }
-  data.license === "none"
+  data.license === "Not licensed"
     ? (license = "")
     : (license = `### <a id='license'></a>${badge}\nThis application is covered under the ${data.license} license.\n`);
   return license;

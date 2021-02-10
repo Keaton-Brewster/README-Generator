@@ -38,47 +38,54 @@ function inquire() {
       },
       {
         type: "input",
-        message: "Give a description of your application:",
+        message:
+          "Give a description of your application (to leave blank, type nothing)",
         name: "description",
       },
       {
         type: "list",
-        message: "What method of install is recommended?",
+        message:
+          "What method of install is recommended? (to leave blank, type nothing)",
         choices: ["bash", "GitHub"],
         name: "installMethod",
       },
       {
         type: "input",
         message:
-          "What do users need to know about how to install your application?",
+          "What do users need to know about how to install your application? (to leave blank, type nothing)",
         name: "install",
       },
       {
         type: "input",
-        message: "Give instructions on how to use your application:",
+        message:
+          "Give instructions on how to use your application. (to leave blank, type nothing)",
         name: "usage",
       },
       {
         type: "input",
-        message: "What are your contribution guidelines?",
+        message:
+          "What are your contribution guidelines? (to leave blank, type nothing)",
         name: "contribution",
       },
       {
         type: "input",
-        message: "What do users need to know about testing your application?",
+        message:
+          "What do users need to know about testing your application? (to leave blank, type nothing)",
         name: "testI",
       },
       {
         type: "list",
-        message: "Under which of the following will your application be licensed?",
-        choices: ["Apache 2.0", "GPL", "Eclipse", "MIT", "none"],
+        message:
+          "Under which of the following will your application be licensed?",
+        choices: ["Apache 2.0", "GPL", "Eclipse", "MIT", "Not licensed"],
         name: "license",
       },
       {
         type: "input",
-        message: "What technologies are utilized in your application?",
-        name: "technologies"
-      }
+        message:
+          "What technologies are utilized in your application? (to leave blank, type nothing)",
+        name: "technologies",
+      },
     ])
     .then((data) => {
       writeToFile("README.md", data);
