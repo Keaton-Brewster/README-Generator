@@ -34,7 +34,7 @@ function inquire() {
       {
         type: "input",
         message: `${chalk.green(
-          "What is the title of this project? (No spaces or special characters besides -)"
+          "What is the title of this project?"
         )}`,
         name: "projectTitle",
       },
