@@ -45,4 +45,4 @@ For questions about the application, or about possible contributions, reach out 
 
   ---
 ### Technologies utilized:
-Javsscript, node.js, inquirer, chalk, json, markdonw
+Javsscript, node.js, inquirer, chalk, json, markdown
